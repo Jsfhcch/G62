@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="%PRODUCT_NAME% %PRODUCT_VERSION% WebGL Build">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>%PRODUCT_NAME% %PRODUCT_VERSION%</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.png">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Rolling Sky 1.2.5 WebGL.json", {onProgress: UnityProgress});
+    </script>
+	<style>
+		body {
+			background: #000000;
+		}
+		.webgl-content {
+			width: 100vw;
+			height: 100vh;
+			overflow: hidden;
+			background: #000000;
+		}
+		#gameContainer {
+			width: 100vh;
+			height: 100vh;
+			transform: translateX(-50%);
+			position: absolute;
+			left: 50%;
+		}
+	</style>
+	<script>
+	setInterval(function() {
+		var gameContainer = document.getElementById('gameContainer');
+		gameContainer.height = window.innerHeight;
+		gameContainer.width = window.innerWidth;
+	}, 1);
+	</script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="gameContainer"></div>
+    </div>
+  </body>
+</html>
