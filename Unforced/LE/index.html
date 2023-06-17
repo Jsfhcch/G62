@@ -199,7 +199,11 @@ Unless there is a sincere apology, this editor is going to keep moving foreverâ˜
 <hr>
 <h2 data-lang="webeditor.main.exporter.steps.copygeos.title">Copy GeoBuffers</h2>
 <p data-lang="webeditor.main.exporter.steps.copygeos.description">Please do not completely depend on this right now, its more of an experement. Please report any and all bugs to me.</p>
-<p><span data-lang="webeditor.main.exporter.steps.copygeos.description2">Enter GeoBuffer Z Value (For All Lines)</span><br><input placeholder="Enter Z Value" id="gbZv" data-lang="webeditor.main.exporter.steps.copygeos.enterzval"><button onclick="Obstacle.copyGeobuffers();" data-lang="webeditor.main.exporter.steps.copygeos.copy">Copy Geobuffers</button></p>
+<p><span data-lang="webeditor.main.exporter.steps.copygeos.description2">Enter GeoBuffer Z Value (For All Lines)</span><br><input placeholder="Enter Z Value" id="gbZv" data-lang="webeditor.main.exporter.steps.copygeos.enterzval"><br>
+<textarea id="plutoniumgeobufferdownload" style="width: 345px; height: 275px;" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></textarea></p>
+<p>
+<button onclick="Obstacle.copyGeobuffers();" data-lang="webeditor.main.exporter.steps.copygeos.copy">Copy Geobuffers</button>
+</p>
 <hr>
 <!--<h2>Link to Level</h2>
 <p>Click Copy to copy a link to this webpage that loads the level when clicked. (URL can be very long)</p>
