@@ -1951,13 +1951,21 @@ c-tile.\35 50::before{
 /* TilesetCSS Auto Generated Code for 'tileset01.png' */
 .\30{background: var(--tileset01) 64px 64px; opacity: 1;background-color: #FFFFFF17;}
 .\31{background: var(--tileset01) 0px 0px;}
+.displayOptions66 .\31{background: var(--tileset66) -0px -0px;}
 .\32{background: var(--tileset01) -64px 0px;}
+.displayOptions66 .\32{background: var(--tileset66) -64px -0px;}
 .\33{background: var(--tileset01) -128px 0px;}
+.displayOptions66 .\33{background: var(--tileset66) -128px -0px;}
 .\34{background: var(--tileset01) -192px 0px;}
+.displayOptions66 .\34{background: var(--tileset66) -192px -0px;}
 .\35{background: var(--tileset01) -256px 0px;}
+.displayOptions66 .\35{background: var(--tileset66) -256px -0px;}
 .\36{background: var(--tileset01) -320px 0px;}
+.displayOptions66 .\36{background: var(--tileset66) -257px -0px;}
 .\37{background: var(--tileset01) -384px 0px;}
+.displayOptions66 .\37{background: var(--tileset66) -384px -0px;}
 .\38{background: var(--tileset01) -448px 0px;}
+.displayOptions66 .\38{background: var(--tileset66) -448px -0px;}
 .\39{background: var(--tileset01) -512px 0px;}
 .\31 0{background: var(--tileset01) -576px 0px;}
 .displayOptions2 .\31 0{background: var(--tileset03) -576px 0px;}
@@ -1965,13 +1973,21 @@ c-tile.\35 50::before{
 .\31 2{background: var(--tileset01) -704px 0px;}
 .displayOptions2 .\31 2{background: var(--tileset03) -704px 0px;}
 .\31 3{background: var(--tileset01) -768px 0px;}
+.displayOptions66 .\31 3{background: var(--tileset66) -512px -0px;}
 .\31 4{background: var(--tileset01) -832px 0px;}
+.displayOptions66 .\31 4{background: var(--tileset66) -576px -0px;}
 .\31 5{background: var(--tileset01) -896px 0px;}
+.displayOptions66 .\31 5{background: var(--tileset66) -640px -0px;}
 .\31 6{background: var(--tileset01) -960px 0px;}
+.displayOptions66 .\31 6{background: var(--tileset66) -704px -0px;}
 .\31 7{background: var(--tileset01) -1024px 0px;}
+.displayOptions66 .\31 7{background: var(--tileset66) -768px -0px;}
 .\31 8{background: var(--tileset01) -1088px 0px;}
+.displayOptions66 .\31 8{background: var(--tileset66) -832px -0px;}
 .\31 9{background: var(--tileset01) -1152px 0px;}
+.displayOptions66 .\31 9{background: var(--tileset66) -896px -0px;}
 .\32 0{background: var(--tileset01) -1216px 0px;}
+.displayOptions66 .\32 0{background: var(--tileset66) -960px -0px;}
 .\32 1{background: var(--tileset01) -1280px 0px;}
 .displayOptions0 .\32 1{background: var(--tileset02) -1280px 0px;}
 .displayOptions2 .\32 1{background: var(--tileset03) -1280px 0px;}
@@ -2013,9 +2029,13 @@ c-tile.\35 50::before{
 .\33 5{background: var(--tileset01) -128px -64px;}
 .\33 6{background: var(--tileset01) -192px -64px;}
 .\33 7{background: var(--tileset01) -256px -64px;}
+.displayOptions66 .\33 7{background: var(--tileset66) -1024px -0px;}
 .\33 8{background: var(--tileset01) -320px -64px;}
+.displayOptions66 .\33 8{background: var(--tileset66) -1088px -0px;}
 .\33 9{background: var(--tileset01) -384px -64px;}
+.displayOptions66 .\33 9{background: var(--tileset66) -1152px -0px;}
 .\34 0{background: var(--tileset01) -448px -64px;}
+.displayOptions66 .\34 0{background: var(--tileset66) -1216px -0px;}
 .\34 1{background: var(--tileset01) -512px -64px;}
 .\34 2{background: var(--tileset01) -576px -64px;}
 .\34 3{background: var(--tileset01) -640px -64px;}
@@ -2035,23 +2055,41 @@ c-tile.\35 50::before{
 .\35 7{background: var(--tileset01) -1536px -64px;}
 .\35 8{background: var(--tileset01) -1600px -64px;}
 .\35 9{background: var(--tileset01) -1664px -64px;}
+.displayOptions66 .\35 9{background: var(--tileset66) -1280px -0px;}
 .\36 0{background: var(--tileset01) -1728px -64px;}
+.displayOptions66 .\36 0{background: var(--tileset66) -1344px -0px;}
 .\36 1{background: var(--tileset01) -1792px -64px;}
+.displayOptions66 .\36 1{background: var(--tileset66) -1408px -0px;}
 .\36 2{background: var(--tileset01) -1856px -64px;}
+.displayOptions66 .\36 2{background: var(--tileset66) -1472px -0px;}
 .\36 3{background: var(--tileset01) -1920px -64px;}
+.displayOptions66 .\36 3{background: var(--tileset66) -1536px -0px;}
 .\36 4{background: var(--tileset01) -1984px -64px;}
+.displayOptions66 .\36 4{background: var(--tileset66) -1600px -0px;}
 .\36 5{background: var(--tileset01) 0px -128px;}
+.displayOptions66 .\36 5{background: var(--tileset66) -1664px -0px;}
 .\36 6{background: var(--tileset01) -64px -128px;}
+.displayOptions66 .\36 6{background: var(--tileset66) -1728px -0px;}
 .\36 7{background: var(--tileset01) -128px -128px;}
+.displayOptions66 .\36 7{background: var(--tileset66) -1792px -0px;}
 .\36 8{background: var(--tileset01) -192px -128px;}
+.displayOptions66 .\36 8{background: var(--tileset66) -1856px -0px;}
 .\36 9{background: var(--tileset01) -256px -128px;}
+.displayOptions66 .\36 9{background: var(--tileset66) -1920px -0px;}
 .\37 0{background: var(--tileset01) -320px -128px;}
+.displayOptions66 .\37 0{background: var(--tileset66) -1984px -0px;}
 .\37 1{background: var(--tileset01) -384px -128px;}
+.displayOptions66 .\37 1{background: var(--tileset66) -0px -64px;}
 .\37 2{background: var(--tileset01) -448px -128px;}
+.displayOptions66 .\37 2{background: var(--tileset66) -64px -64px;}
 .\37 3{background: var(--tileset01) -512px -128px;}
+.displayOptions66 .\37 3{background: var(--tileset66) -128px -64px;}
 .\37 4{background: var(--tileset01) -576px -128px;}
+.displayOptions66 .\37 4{background: var(--tileset66) -192px -64px;}
 .\37 5{background: var(--tileset01) -640px -128px;}
+.displayOptions66 .\37 5{background: var(--tileset66) -256px -64px;}
 .\37 6{background: var(--tileset01) -704px -128px;}
+.displayOptions66 .\37 6{background: var(--tileset66) -320px -64px;}
 .\37 7{background: var(--tileset01) -768px -128px;}
 .\37 8{background: var(--tileset01) -832px -128px;}
 .\37 9{background: var(--tileset01) -896px -128px;}
@@ -2173,13 +2211,21 @@ c-tile.\35 50::before{
 .\31 79{background: var(--tileset01) -1152px -320px;}
 .\31 80{background: var(--tileset01) -1216px -320px;}
 .\31 81{background: var(--tileset01) -1280px -320px;}
+.displayOptions66 .\31 81{background: var(--tileset66) -640px -64px;}
 .\31 82{background: var(--tileset01) -1344px -320px;}
+.displayOptions66 .\31 82{background: var(--tileset66) -704px -64px;}
 .\31 83{background: var(--tileset01) -1408px -320px;}
+.displayOptions66 .\31 83{background: var(--tileset66) -768px -64px;}
 .\31 84{background: var(--tileset01) -1472px -320px;}
+.displayOptions66 .\31 84{background: var(--tileset66) -832px -64px;}
 .\31 85{background: var(--tileset01) -1536px -320px;}
+.displayOptions66 .\31 85{background: var(--tileset66) -896px -64px;}
 .\31 86{background: var(--tileset01) -1600px -320px;}
+.displayOptions66 .\31 86{background: var(--tileset66) -960px -64px;}
 .\31 87{background: var(--tileset01) -1664px -320px;}
+.displayOptions66 .\31 87{background: var(--tileset66) -1024px -64px;}
 .\31 88{background: var(--tileset01) -1728px -320px;}
+.displayOptions66 .\31 88{background: var(--tileset66) -1088px -64px;}
 .\31 89{background: var(--tileset01) -1792px -320px;}
 .\31 90{background: var(--tileset01) -1856px -320px;}
 .\31 91{background: var(--tileset01) -1920px -320px;}
@@ -2199,9 +2245,13 @@ c-tile.\35 50::before{
 .\32 05{background: var(--tileset01) -768px -384px;}
 .\32 06{background: var(--tileset01) -832px -384px;}
 .\32 07{background: var(--tileset01) -896px -384px;}
+.displayOptions66 .\32 07{background: var(--tileset66) -384px -64px;}
 .\32 08{background: var(--tileset01) -960px -384px;}
+.displayOptions66 .\32 08{background: var(--tileset66) -448px -64px;}
 .\32 09{background: var(--tileset01) -1024px -384px;}
+.displayOptions66 .\32 09{background: var(--tileset66) -512px -64px;}
 .\32 10{background: var(--tileset01) -1088px -384px;}
+.displayOptions66 .\32 10{background: var(--tileset66) -576px -64px;}
 .\32 11{background: var(--tileset01) -1152px -384px;}
 .\32 12{background: var(--tileset01) -1216px -384px;}
 .\32 13{background: var(--tileset01) -1280px -384px;}
