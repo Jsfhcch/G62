@@ -1247,7 +1247,7 @@ c-tile.\33 88::after,c-tile.\33 89::after{
     position: relative;
     background-size: contain !important;
     z-index: 16;
-    opacity: 0.65;
+    opacity: 1;
     pointer-events: none;
     margin: auto;
     font-size: initial;
