@@ -327,10 +327,10 @@ c-sel:active {
    left: 0;
    right: 0;
    position: absolute;
-   z-index: 32778;
+   z-index: 42768;
    align-content: flex-start;
    flex-direction: column;
-   flex-wrap: wrap;
+   flex-wrap: nowrap;
    padding: 20pt;
    align-items: flex-start;
    justify-content: flex-start;
