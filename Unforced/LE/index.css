@@ -1535,6 +1535,52 @@ c-tile.\31 58::after{
 	left: 128px;
     opacity: 0.5;
 }
+c-tile.\39 21::after{
+    background: url(stencils/Sunset/Sun953.png);
+    transform: scaleX(2.1);
+    height: 67px;
+    width: 64px;
+    left: 32px;
+    top: -2px;
+}
+c-tile.\39 22::after{
+    background: url(stencils/Sunset/Sun954.png);
+    transform: scaleX(2.1);
+    height: 67px;
+    width: 64px;
+    left: -32px;
+    top: -2px;
+}
+c-tile.\39 23::after{
+    background: url(stencils/Sunset/Sun955.png);
+    transform: scale(3);
+    height: 64px;
+    width: 64px;
+    top: -64px;
+    opacity: 0.5;
+}
+c-tile.\39 24::after{
+    background: url(stencils/Sunset/Sun956.png);
+    transform: scale(3);
+    height: 64px;
+    width: 64px;
+    top: -64px;
+    opacity: 0.5;
+}
+c-tile.\39 25::after{
+    background: url(stencils/Sunset/Sun957.png);
+    transform: scale(4.9);
+    width: 320px;
+    height: 13px;
+    bottom: -24px;
+    left: 0px;
+}
+c-tile.\39 26::after{
+    background: url(stencils/Sunset/Sun958.png);
+}
+c-tile.\39 27::after{
+    background: url(stencils/Sunset/Sun959.png);
+}
 
 /* Powerup Destinations */
 
