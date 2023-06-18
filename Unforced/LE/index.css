@@ -1241,6 +1241,71 @@ c-tile.\31 65::after,c-tile.\31 66::after,c-tile.\31 67::after,c-tile.\31 68::af
     padding: initial;
 }
 
+c-tile.\33 88::after,c-tile.\33 89::after{
+    content: '.';
+    color: transparent;
+    position: relative;
+    background-size: contain !important;
+    z-index: 16;
+    opacity: 0.65;
+    pointer-events: none;
+    margin: auto;
+    font-size: initial;
+    text-align: initial;
+    padding: initial;
+    top: auto;
+    left: auto;
+	border-radius: 0 !important;
+}
+c-tile.\33 88::after{
+    background: url(stencils/Ignite/Ba388.png);
+    transform: scale(4.9);
+    width: 320px;
+    height: 13px;
+    bottom: -24px;
+    left: 60px;
+}
+c-tile.\33 89::after{
+    background: url(stencils/Ignite/Ba389.png);
+    transform: scale(4.9);
+    width: 13px;
+    height: 320px;
+    bottom: -24px;
+    left: 0px;
+}
+
+c-tile.\33 92::after,c-tile.\33 93::after{
+    content: '.';
+    color: transparent;
+    background-size: 100% 100% !important;
+    position: relative;
+    z-index: 16;
+    opacity: 1;
+    pointer-events: none;
+    left: auto;
+    font-size: initial;
+    text-align: initial;
+    margin: auto;
+    padding: initial;
+    top: 0;
+}
+c-tile.\33 92::after{
+    background: url(stencils/Ignite/La392.png);
+    transform: scaleX(2.1);
+    height: 67px;
+    width: 64px;
+    left: -32px;
+    top: -2px;
+}
+c-tile.\33 93::after{
+    background: url(stencils/Ignite/La393.png);
+    transform: scaleX(2.1);
+    height: 67px;
+    width: 64px;
+    left: 32px;
+    top: -2px;
+}
+
 c-tile.\33 94::after{
 	transform: scaleX(0.5);
 }
