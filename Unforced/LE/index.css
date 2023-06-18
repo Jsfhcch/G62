@@ -9,7 +9,12 @@
 }
 
 html {
-	background-color: var(--mainbg) !important;
+	background: var(--mainbg) !important;
+	background-image: url('stencils/Background3097.png');
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
 }
 
 body {
