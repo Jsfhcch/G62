@@ -1267,10 +1267,11 @@ c-tile.\33 88::after{
 }
 c-tile.\33 89::after{
     background: url(stencils/Ignite/Ba389.png);
-    transform: scaleY(4.9);
+    transform: scale(4.9);
     width: 13px;
     height: 320px;
     bottom: -24px;
+    Top: -620px;
     left: 0px;
 }
 
