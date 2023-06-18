@@ -491,10 +491,6 @@ c-keybind {
 	margin-bottom: 5pt;
 }*/
 
-#exportmenu {
-	height: 110vh;
-}
-
 .brushes + .brushcontainer {
     position: absolute;
     display: none;
