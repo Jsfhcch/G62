@@ -1535,7 +1535,25 @@ c-tile.\31 58::after{
 	left: 128px;
     opacity: 0.5;
 }
-c-tile.\39 21::after{
+
+c-tile.\39 53::after,c-tile.\39 54::after,c-tile.\39 57::after{
+    content: '.';
+    color: transparent;
+    position: relative;
+    background-size: contain !important;
+    z-index: 16;
+    opacity: 0.65;
+    pointer-events: none;
+    margin: auto;
+    font-size: initial;
+    text-align: initial;
+    padding: initial;
+    top: auto;
+    left: auto;
+	border-radius: 0 !important;
+}
+
+c-tile.\39 53::after{
     background: url(stencils/Sunset/Sun953.png);
     transform: scaleX(2.1);
     height: 67px;
@@ -1543,7 +1561,7 @@ c-tile.\39 21::after{
     left: 32px;
     top: -2px;
 }
-c-tile.\39 22::after{
+c-tile.\39 54::after{
     background: url(stencils/Sunset/Sun954.png);
     transform: scaleX(2.1);
     height: 67px;
@@ -1551,7 +1569,24 @@ c-tile.\39 22::after{
     left: -32px;
     top: -2px;
 }
-c-tile.\39 23::after{
+
+c-tile.\39 55::after,c-tile.\39 56::after{
+    content: '.';
+    color: transparent;
+    background-size: 100% 100% !important;
+    position: relative;
+    z-index: 16;
+    opacity: 1;
+    pointer-events: none;
+    left: auto;
+    font-size: initial;
+    text-align: initial;
+    margin: auto;
+    padding: initial;
+    top: 0;
+}
+
+c-tile.\39 55::after{
     background: url(stencils/Sunset/Sun955.png);
     transform: scale(3);
     height: 64px;
@@ -1559,7 +1594,7 @@ c-tile.\39 23::after{
     top: -64px;
     opacity: 0.5;
 }
-c-tile.\39 24::after{
+c-tile.\39 56::after{
     background: url(stencils/Sunset/Sun956.png);
     transform: scale(3);
     height: 64px;
@@ -1567,7 +1602,7 @@ c-tile.\39 24::after{
     top: -64px;
     opacity: 0.5;
 }
-c-tile.\39 25::after{
+c-tile.\39 57::after{
     background: url(stencils/Sunset/Sun957.png);
     transform: scale(4.9);
     width: 320px;
