@@ -1270,7 +1270,7 @@ c-tile.\33 89::after{
     transform: scale(4.9);
     width: 13px;
     height: 320px;
-    bottom: 640px;
+    bottom: 0px;
 }
 
 c-tile.\33 92::after,c-tile.\33 93::after{
