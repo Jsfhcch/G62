@@ -1576,7 +1576,7 @@ c-tile.\39 25::after{
     left: 0px;
 }
 
-c-tile.\39 26::after,c-tile.\39 27::after{
+c-tile.\39 58::after,c-tile.\39 59::after{
     content: '.';
     color: transparent;
     position: relative;
@@ -1596,10 +1596,10 @@ c-tile.\39 26::after,c-tile.\39 27::after{
     left: auto;
 }
 
-c-tile.\39 26::after{
+c-tile.\39 58::after{
     background: url(stencils/Sunset/Sun958.png);
 }
-c-tile.\39 27::after{
+c-tile.\39 59::after{
     background: url(stencils/Sunset/Sun959.png);
 }
 
