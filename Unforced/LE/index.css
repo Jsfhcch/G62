@@ -1575,6 +1575,27 @@ c-tile.\39 25::after{
     bottom: -24px;
     left: 0px;
 }
+
+c-tile.\39 26::after,c-tile.\39 27::after{
+    content: '.';
+    color: transparent;
+    position: relative;
+    background-size: contain !important;
+    width: 100%;
+    height: 64px;
+    z-index: 16;
+    bottom: 128px;
+    opacity: 0.65;
+    transform: scale(5);
+    pointer-events: none;
+    margin: auto;
+    font-size: initial;
+    text-align: initial;
+    padding: initial;
+    top: auto;
+    left: auto;
+}
+
 c-tile.\39 26::after{
     background: url(stencils/Sunset/Sun958.png);
 }
