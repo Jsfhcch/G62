@@ -327,7 +327,7 @@ c-sel:active {
    left: 0;
    right: 0;
    position: absolute;
-   z-index: 42768;
+   z-index: 62000;
    align-content: flex-start;
    flex-direction: column;
    flex-wrap: nowrap;
