@@ -314,8 +314,8 @@ c-sel:active {
 #exportmenu {
    width: 100%;
    height: 100%;
-   width: min-content;
-   height: -webkit-fill-available;
+   width: -webkit-fill-available;
+   /*height: -webkit-fill-available; */
    background-image: url('stencils/Background3097.png');
    background-position: center center;
    background-size: cover;
