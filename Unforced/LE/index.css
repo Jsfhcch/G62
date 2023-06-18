@@ -9,7 +9,7 @@
 }
 
 html {
-	background-image: url('stencils/Background3097.png');
+	background-image: url('stencils/Background34.png');
         background-position: center center;
         background-size: cover;
         background-attachment: fixed;
@@ -17,7 +17,7 @@ html {
 }
 
 body {
-   background-image: url('stencils/Background3097.png');
+   background-image: url('stencils/Background34.png');
    background-position: center center;
    background-size: cover;
    background-attachment: fixed;
@@ -621,7 +621,11 @@ hr {
 
 input[type="text"], input[type="number" i], textarea {
 	color: var(--maintxt);
-	background-color: var(--inputbg);
+	background-image: url('stencils/Impact3.png');
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
 	border: var(--input-brd-sty);
 	border-color: var(--input-brd-col);
     border-radius: 5pt;
@@ -931,7 +935,11 @@ button:hover {
 #obstaclecount {
     position: fixed;
     z-index: 600;
-    background: var(--mainbg);
+    background-image: url('stencils/Impact3.png');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     padding: 12pt;
     left: 0;
     top: 0;
@@ -1941,7 +1949,7 @@ c-tile.\35 50::before{
 }
 
 /* TilesetCSS Auto Generated Code for 'tileset01.png' */
-.\30{background: var(--tileset01) 64px 64px; opacity: 1;background-color: var(--tilebg) !important;}
+.\30{background: var(--tileset01) 64px 64px; opacity: 1;background-color: #FFFFFF17;}
 .\31{background: var(--tileset01) 0px 0px;}
 .\32{background: var(--tileset01) -64px 0px;}
 .\33{background: var(--tileset01) -128px 0px;}
