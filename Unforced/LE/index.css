@@ -291,7 +291,11 @@ c-sel:active {
     height: min-content;
     width: -webkit-fill-available;
     /* height: -webkit-fill-available; */
-    background: var(--mainbg);
+    background-image: url('stencils/Background3097.png');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     display: flex;
     bottom: 0;
     top: 0;
@@ -312,7 +316,11 @@ c-sel:active {
    height: 100%;
    width: -webkit-fill-available;
    height: -webkit-fill-available;
-   background: var(--mainbg);
+   background-image: url('stencils/Background3097.png');
+   background-position: center center;
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
    display: flex;
    bottom: 0;
    top: 0;
