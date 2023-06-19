@@ -9,6 +9,7 @@
 }
 
 html {
+	background: var(--mainbg) !important;
 	background-image: url('stencils/Background34.png');
         background-position: center center;
         background-size: cover;
@@ -17,6 +18,7 @@ html {
 }
 
 body {
+   background: var(--mainbg) !important;
    background-image: url('stencils/Background34.png');
    background-position: center center;
    background-size: cover;
