@@ -1951,7 +1951,7 @@ c-tile.\35 50::before{
 }
 
 /* TilesetCSS Auto Generated Code for 'tileset01.png' */
-.\30{background: var(--tileset01) 64px 64px; opacity: 1;background-color: #FFFFFF17;}
+.\30{background: var(--tileset01) 64px 64px; opacity: 1;background-color: var(--tilebg) !important;}
 .\31{background: var(--tileset01) 0px 0px;}
 .displayOptions66 .\31{background: var(--tileset66) -0px -0px;}
 .\32{background: var(--tileset01) -64px 0px;}
