@@ -9,7 +9,6 @@
 }
 
 html {
-	background: var(--mainbg) !important;
 	background-image: url('stencils/Background34.png');
         background-position: center center;
         background-size: cover;
@@ -18,7 +17,6 @@ html {
 }
 
 body {
-   background: var(--mainbg) !important;
    background-image: url('stencils/Background34.png');
    background-position: center center;
    background-size: cover;
@@ -406,11 +404,13 @@ h2 {
 .contents button {
     width: 100%;
     text-align: left;
+    border: double;
+    padding: 5px;
 }
 
 .contents button:hover {
 	background: #FFFFFF17 !important;
-    border-radius: 3pt;
+    border-radius: 0pt;
     -webkit-transition: 0.15s;
     transition: 0.15s;
 }
@@ -628,9 +628,9 @@ input[type="text"], input[type="number" i], textarea {
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
-	border: var(--input-brd-sty);
-	border-color: var(--input-brd-col);
-    border-radius: 5pt;
+	border: double;
+	border-color: #ffffff;
+    border-radius: 0pt;
     padding: 2pt 5pt;
     margin: 10pt 0 -5pt 0;
 	outline: none;
@@ -1201,6 +1201,142 @@ c-tile::after {
 	background-repeat: no-repeat !important;
 }
 
+c-tile.\31 01::after,c-tile.\31 02::after,c-tile.\31 03::after,c-tile.\31 04::after,c-tile.\31 05::after,c-tile.\31 06::after,c-tile.\31 07::after,c-tile.\31 08::after,c-tile.\31 09::after,c-tile.\31 10::after,c-tile.\31 11::after,c-tile.\31 12::after,c-tile.\31 13::after,c-tile.\31 14::after,c-tile.\31 15::after,c-tile.\31 16::after{
+    content: '.';
+    color: transparent;
+    background-size: 100% 100% !important;
+    position: relative;
+    z-index: 16;
+    opacity: 1;
+    pointer-events: none;
+    left: auto;
+    font-size: initial;
+    text-align: initial;
+    margin: auto;
+    padding: initial;
+    top: 0;
+}
+c-tile.\31 01::after{
+    background: url(stencils/Massif/Ha101.png);
+    transform: scaleX(2.1);
+    height: 67px;
+    width: 64px;
+    left: -32px;
+    top: -2px;
+}
+c-tile.\31 02::after{
+    background: url(stencils/Massif/Ha102.png);
+    transform: scaleX(2.1);
+    height: 67px;
+    width: 64px;
+    left: 32px;
+    top: -2px;
+}
+c-tile.\31 03::after{
+    background: url(stencils/Massif/Ha103.png);
+    transform: scaleX(2.1);
+    height: 67px;
+    width: 64px;
+    left: -32px;
+    top: -2px;
+}
+c-tile.\31 04::after{
+    background: url(stencils/Massif/Ha104.png);
+    transform: scaleX(2.1);
+    height: 67px;
+    width: 64px;
+    left: 32px;
+    top: -2px;
+}
+c-tile.\31 05::after{
+    background: url(stencils/Massif/Sl105.png);
+    transform: scaleX(3);
+    height: 64px;
+    width: 64px;
+    left: -64px;
+}
+c-tile.\31 06::after{
+    background: url(stencils/Massif/Sl106.png);
+    transform: scaleX(3);
+    height: 64px;
+    width: 64px;
+    left: 64px;
+}
+c-tile.\31 07::after{
+    background: url(stencils/Massif/Sl107.png);
+    transform: scaleX(3);
+    height: 64px;
+    width: 64px;
+    left: -64px;
+}
+c-tile.\31 08::after{
+    background: url(stencils/Massif/Sl108.png);
+    transform: scaleX(3);
+    height: 64px;
+    width: 64px;
+    left: 64px;
+}
+c-tile.\31 09::after{
+    background: url(stencils/Massif/Ha101.png);
+    transform: scaleX(2.1);
+    height: 67px;
+    width: 64px;
+    left: -32px;
+    top: -2px;
+}
+c-tile.\31 10::after{
+    background: url(stencils/Massif/Ha102.png);
+    transform: scaleX(2.1);
+    height: 67px;
+    width: 64px;
+    left: 32px;
+    top: -2px;
+}
+c-tile.\31 11::after{
+    background: url(stencils/Massif/Ha103.png);
+    transform: scaleX(2.1);
+    height: 67px;
+    width: 64px;
+    left: -32px;
+    top: -2px;
+}
+c-tile.\31 12::after{
+    background: url(stencils/Massif/Ha104.png);
+    transform: scaleX(2.1);
+    height: 67px;
+    width: 64px;
+    left: 32px;
+    top: -2px;
+}
+c-tile.\31 13::after{
+    background: url(stencils/Massif/Sl105.png);
+    transform: scaleX(3);
+    height: 64px;
+    width: 64px;
+    left: 0px;
+}
+c-tile.\31 14::after{
+    background: url(stencils/Massif/Sl106.png);
+    transform: scaleX(3);
+    height: 64px;
+    width: 64px;
+    left: 0px;
+}
+c-tile.\31 15::after{
+    background: url(stencils/Massif/Sl107.png);
+    transform: scaleX(3);
+    height: 64px;
+    width: 64px;
+    left: 0px;
+}
+c-tile.\31 16::after{
+    background: url(stencils/Massif/Sl108.png);
+    transform: scaleX(3);
+    height: 64px;
+    width: 64px;
+    left: 0px;
+}
+
 c-tile.\32 50::after,c-tile.\32 51::after,c-tile.\32 52::after,c-tile.\32 53::after{
     background-size: 100% !important;
     color: transparent;
@@ -1282,6 +1418,7 @@ c-tile.\33 88::after,c-tile.\33 89::after{
 c-tile.\33 88::after{
     background: url(stencils/Ignite/Ba388.png);
     transform: scale(4.9);
+    opacity: 0.65;
     width: 320px;
     height: 13px;
     bottom: -24px;
@@ -1290,6 +1427,7 @@ c-tile.\33 88::after{
 c-tile.\33 89::after{
     background: url(stencils/Ignite/Ba389.png);
     transform: scale(4.9);
+    opacity: 0.65;
     width: 13px;
     height: 320px;
     bottom: -24px;
@@ -1350,51 +1488,6 @@ c-tile.\31 49::after{
     font-size: initial;
     text-align: initial;
     padding: initial;
-}
-
-c-tile.\32 74::after,c-tile.\32 75::after,c-tile.\32 76::after,c-tile.\32 77::after{
-    content: '.';
-    color: transparent;
-    background-size: 100% 100% !important;
-    position: relative;
-    z-index: 16;
-    opacity: 1;
-    pointer-events: none;
-    left: auto;
-    font-size: initial;
-    text-align: initial;
-    margin: auto;
-    padding: initial;
-    top: 0;
-}
-c-tile.\32 74::after{
-    background: url(stencils/Cube/Cube274.png);
-    transform: scaleX(3);
-    height: 64px;
-    width: 64px;
-}
-c-tile.\32 75::after{
-    background: url(stencils/Cube/Cube275.png);
-    transform: scale(3);
-    height: 64px;
-    width: 64px;
-    top: 0px;
-    opacity: 0.5;
-}
-c-tile.\32 76::after{
-    background: url(stencils/Cube/Cube276.png);
-    transform: scaleX(5);
-    height: 64px;
-    width: 64px;
-    opacity: 0.5;
-}
-c-tile.\32 77::after{
-    background: url(stencils/Cube/Cube277.png);
-    transform: scale(3);
-    height: 64px;
-    width: 64px;
-    top: -64px;
-    opacity: 0.5;
 }
 
 c-tile.\33 09::after,c-tile.\33 10::after{
@@ -1666,6 +1759,51 @@ c-tile.\31 58::after{
     height: 64px;
     width: 64px;
 	left: 128px;
+    opacity: 0.5;
+}
+
+c-tile.\32 74::after,c-tile.\32 75::after,c-tile.\32 76::after,c-tile.\32 77::after{
+    content: '.';
+    color: transparent;
+    background-size: 100% 100% !important;
+    position: relative;
+    z-index: 16;
+    opacity: 1;
+    pointer-events: none;
+    left: auto;
+    font-size: initial;
+    text-align: initial;
+    margin: auto;
+    padding: initial;
+    top: 0;
+}
+c-tile.\32 74::after{
+    background: url(stencils/Cube/Cube274.png);
+    transform: scaleX(3);
+    height: 64px;
+    width: 64px;
+}
+c-tile.\32 75::after{
+    background: url(stencils/Cube/Cube275.png);
+    transform: scale(3);
+    height: 64px;
+    width: 64px;
+    top: 0px;
+    opacity: 0.5;
+}
+c-tile.\32 76::after{
+    background: url(stencils/Cube/Cube276.png);
+    transform: scaleX(5);
+    height: 64px;
+    width: 64px;
+    opacity: 0.5;
+}
+c-tile.\32 77::after{
+    background: url(stencils/Cube/Cube277.png);
+    transform: scale(3);
+    height: 64px;
+    width: 64px;
+    top: -64px;
     opacity: 0.5;
 }
 
@@ -1996,7 +2134,7 @@ c-tile.\35 50::before{
 }
 
 /* TilesetCSS Auto Generated Code for 'tileset01.png' */
-.\30{background: var(--tileset01) 64px 64px; opacity: 1;background-color: var(--tilebg) !important;}
+.\30{background: var(--tileset01) 64px 64px; opacity: 1;background-color: #FFFFFF17;}
 .\31{background: var(--tileset01) 0px 0px;}
 .displayOptions66 .\31{background: var(--tileset66) -0px -0px;}
 .\32{background: var(--tileset01) -64px 0px;}
