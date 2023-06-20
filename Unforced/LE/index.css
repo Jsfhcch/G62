@@ -1352,6 +1352,51 @@ c-tile.\31 49::after{
     padding: initial;
 }
 
+c-tile.\32 74::after,c-tile.\32 75::after,c-tile.\32 76::after,c-tile.\32 77::after{
+    content: '.';
+    color: transparent;
+    background-size: 100% 100% !important;
+    position: relative;
+    z-index: 16;
+    opacity: 1;
+    pointer-events: none;
+    left: auto;
+    font-size: initial;
+    text-align: initial;
+    margin: auto;
+    padding: initial;
+    top: 0;
+}
+c-tile.\32 74::after{
+    background: url(stencils/Cube/Cube274.png);
+    transform: scaleX(3);
+    height: 64px;
+    width: 64px;
+}
+c-tile.\32 75::after{
+    background: url(stencils/Cube/Cube275.png);
+    transform: scale(3);
+    height: 64px;
+    width: 64px;
+    top: 0px;
+    opacity: 0.5;
+}
+c-tile.\32 76::after{
+    background: url(stencils/Cube/Cube276.png);
+    transform: scaleX(5);
+    height: 64px;
+    width: 64px;
+    opacity: 0.5;
+}
+c-tile.\32 77::after{
+    background: url(stencils/Cube/Cube277.png);
+    transform: scale(3);
+    height: 64px;
+    width: 64px;
+    top: -64px;
+    opacity: 0.5;
+}
+
 c-tile.\33 09::after,c-tile.\33 10::after{
     content: '.';
     color: transparent;
