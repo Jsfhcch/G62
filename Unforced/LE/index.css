@@ -1380,6 +1380,40 @@ c-tile.\32 53::after{
     transform: scale(4);
 }
 
+c-tile.\32 90::after,c-tile.\32 91::after{
+    content: '.';
+    color: transparent;
+    background-size: 100% 100% !important;
+    position: relative;
+    z-index: 16;
+    opacity: 1;
+    pointer-events: none;
+    left: auto;
+    font-size: initial;
+    text-align: initial;
+    margin: auto;
+    padding: initial;
+    top: 0;
+}
+c-tile.\32 90::after{
+    background: url(stencils/Poker/Po290.png);
+    transform: scaleX(2.1);
+    height: 67px;
+    width: 64px;
+    left: -32px;
+    top: -2px;
+    opacity: 0.5;
+}
+c-tile.\32 91::after{
+    background: url(stencils/Poker/Po291.png);
+    transform: scaleX(2.1);
+    height: 67px;
+    width: 64px;
+    left: 32px;
+    top: -2px;
+    opacity: 0.5;
+}
+
 c-tile.\31 65::after,c-tile.\31 66::after,c-tile.\31 67::after,c-tile.\31 68::after,c-tile.\34 40::after,c-tile.\35 95::after,c-tile.\33 94::after{
     background: url(stencils/laserbeam.png);
     content: '.';
@@ -1418,7 +1452,7 @@ c-tile.\33 88::after,c-tile.\33 89::after{
 c-tile.\33 88::after{
     background: url(stencils/Ignite/Ba388.png);
     transform: scale(4.9);
-    opacity: 0.65;
+    opacity: 0.75;
     width: 320px;
     height: 13px;
     bottom: -24px;
@@ -1427,7 +1461,7 @@ c-tile.\33 88::after{
 c-tile.\33 89::after{
     background: url(stencils/Ignite/Ba389.png);
     transform: scale(4.9);
-    opacity: 0.65;
+    opacity: 0.75;
     width: 13px;
     height: 320px;
     bottom: -24px;
@@ -1782,6 +1816,7 @@ c-tile.\32 74::after{
     transform: scaleX(3);
     height: 64px;
     width: 64px;
+    opacity: 0.5;
 }
 c-tile.\32 75::after{
     background: url(stencils/Cube/Cube275.png);
@@ -1829,6 +1864,7 @@ c-tile.\39 53::after{
     width: 64px;
     left: 32px;
     top: -2px;
+    opacity: 0.5;
 }
 c-tile.\39 54::after{
     background: url(stencils/Sunset/Sun954.png);
@@ -1837,6 +1873,7 @@ c-tile.\39 54::after{
     width: 64px;
     left: -32px;
     top: -2px;
+    opacity: 0.5;
 }
 c-tile.\39 55::after{
     background: url(stencils/Sunset/Sun955.png);
@@ -1906,6 +1943,103 @@ c-tile.\39 58::after{
 }
 c-tile.\39 59::after{
     background: url(stencils/Sunset/Sun959.png);
+}
+
+c-tile.\32 27::after,c-tile.\32 28::after,c-tile.\32 29::after,c-tile.\32 30::after,c-tile.\32 31::after,c-tile.\32 32::after,c-tile.\33 34::after,c-tile.\33 35::after,c-tile.\33 36::after,c-tile.\35 38::after,c-tile.\39 01::after{
+    content: '.';
+    color: transparent;
+    background-size: 100% 100% !important;
+    position: relative;
+    z-index: 16;
+    opacity: 1;
+    pointer-events: none;
+    left: auto;
+    font-size: initial;
+    text-align: initial;
+    margin: auto;
+    padding: initial;
+    top: 0;
+}
+c-tile.\32 27::after{
+    background: url(stencils/Mapping/Map227.png);
+    transform: scaleX(7);
+    height: 64px;
+    width: 64px;
+    opacity: 0.5;
+}
+c-tile.\32 28::after{
+    background: url(stencils/Mapping/Map228.png);
+    transform: scaleX(7);
+    height: 64px;
+    width: 64px;
+    opacity: 0.5;
+}
+c-tile.\32 29::after{
+    background: url(stencils/Mapping/Map229.png);
+    transform: scaleX(7);
+    height: 64px;
+    width: 64px;
+    opacity: 0.5;
+}
+c-tile.\32 30::after{
+    background: url(stencils/Mapping/Map230.png);
+    transform: scaleX(7);
+    height: 64px;
+    width: 64px;
+    opacity: 0.5;
+}
+c-tile.\32 31::after{
+    background: url(stencils/Mapping/Map231.png);
+    transform: scaleX(7);
+    height: 64px;
+    width: 64px;
+    opacity: 0.5;
+}
+c-tile.\32 32::after{
+    background: url(stencils/Mapping/Map232.png);
+    transform: scaleX(7);
+    height: 64px;
+    width: 64px;
+    opacity: 0.5;
+}
+c-tile.\33 34::after{
+    background: url(stencils/Mapping/Map334.png);
+    transform: scaleX(7);
+    height: 64px;
+    width: 64px;
+    opacity: 0.5;
+}
+c-tile.\33 35::after{
+    background: url(stencils/Mapping/Map335.png);
+    transform: scaleX(2.1);
+    height: 67px;
+    width: 64px;
+    left: -32px;
+    top: -2px;
+    opacity: 0.5;
+}
+c-tile.\33 36::after{
+    background: url(stencils/Mapping/Map336.png);
+    transform: scaleX(2.1);
+    height: 67px;
+    width: 64px;
+    left: 32px;
+    top: -2px;
+    opacity: 0.5;
+}
+c-tile.\35 38::after{
+    background: url(stencils/Mapping/Map538.png);
+    transform: scaleX(7);
+    height: 64px;
+    width: 64px;
+    opacity: 0.5;
+}
+c-tile.\39 01::after{
+    background: url(stencils/Mapping/Map901.png);
+    transform: scaleX(7);
+    height: 64px;
+    width: 64px;
+    opacity: 0.5;
 }
 
 /* Powerup Destinations */
