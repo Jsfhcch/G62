@@ -646,12 +646,12 @@ input[type="file"] {
 }
 
 button {
-	color: var(--maintxt);
+	color: #ffffff;
 	background-color: var(--buttonbg-def);
-	border: var(--button-brd-sty);
-	border-color: var(--button-brd-col);
+	border: 2px solid #d6b531;
     padding: 2pt 5pt;
-    border-radius: 5pt;
+    border-radius: 24pt;
+    outline: none;
 }
 
 .header button {
@@ -1335,6 +1335,46 @@ c-tile.\31 16::after{
     height: 64px;
     width: 64px;
     left: 0px;
+}
+
+c-tile.\34 9::after,c-tile.\35 0::after,c-tile.\31 19::after{
+    content: '.';
+    color: transparent;
+    background-size: 100% 100% !important;
+    position: relative;
+    z-index: 16;
+    opacity: 1;
+    pointer-events: none;
+    left: auto;
+    font-size: initial;
+    text-align: initial;
+    margin: auto;
+    padding: initial;
+    top: 0;
+}
+c-tile.\34 9::after{
+    background: url(stencils/Te49.png);
+    transform: scale(3);
+    height: 64px;
+    width: 64px;
+    top: 0px;
+    opacity: 0.75;
+}
+c-tile.\35 0::after{
+    background: url(stencils/Te49.png);
+    transform: scale(3);
+    height: 64px;
+    width: 64px;
+    top: 0px;
+    opacity: 0.75;
+}
+c-tile.\31 19::after{
+    background: url(stencils/Te119.png);
+    transform: scale(3);
+    height: 64px;
+    width: 64px;
+    top: 0px;
+    opacity: 0.75;
 }
 
 c-tile.\32 50::after,c-tile.\32 51::after,c-tile.\32 52::after,c-tile.\32 53::after{
