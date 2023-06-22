@@ -1201,7 +1201,7 @@ c-tile::after {
 	background-repeat: no-repeat !important;
 }
 
-c-tile.\31 01::after,c-tile.\31 02::after,c-tile.\31 03::after,c-tile.\31 04::after,c-tile.\31 05::after,c-tile.\31 06::after,c-tile.\31 07::after,c-tile.\31 08::after,c-tile.\31 09::after,c-tile.\31 10::after,c-tile.\31 11::after,c-tile.\31 12::after,c-tile.\31 13::after,c-tile.\31 14::after,c-tile.\31 15::after,c-tile.\31 16::after{
+c-tile.\31 01::after,c-tile.\31 02::after,c-tile.\31 03::after,c-tile.\31 04::after,c-tile.\31 05::after,c-tile.\31 06::after,c-tile.\31 07::after,c-tile.\31 08::after,c-tile.\31 09::after,c-tile.\31 10::after,c-tile.\31 11::after,c-tile.\31 12::after,c-tile.\31 13::after,c-tile.\31 14::after,c-tile.\31 15::after,c-tile.\31 16::after,c-tile.\35 1::after,c-tile.\35 2::after,c-tile.\35 3::after,c-tile.\35 4::after{
     content: '.';
     color: transparent;
     background-size: 100% 100% !important;
@@ -1335,6 +1335,38 @@ c-tile.\31 16::after{
     height: 64px;
     width: 64px;
     left: 0px;
+}
+c-tile.\35 1::after{
+    background: url(stencils/Shinto51.png);
+    transform: scaleX(3);
+    height: 64px;
+    width: 64px;
+    left: 0px;
+    opacity: 0.75;
+}
+c-tile.\35 2::after{
+    background: url(stencils/Shinto52.png);
+    transform: scaleX(3);
+    height: 64px;
+    width: 64px;
+    left: 0px;
+    opacity: 0.75;
+}
+c-tile.\35 3::after{
+    background: url(stencils/Shinto51.png);
+    transform: scaleX(3);
+    height: 64px;
+    width: 64px;
+    left: 0px;
+    opacity: 0.75;
+}
+c-tile.\35 4::after{
+    background: url(stencils/Shinto52.png);
+    transform: scaleX(3);
+    height: 64px;
+    width: 64px;
+    left: 0px;
+    opacity: 0.75;
 }
 
 c-tile.\34 9::after,c-tile.\35 0::after,c-tile.\31 19::after{
@@ -3575,3 +3607,24 @@ c-tile.\35 50::before{
 .\31 172{background: var(--tileset01) -1216px -2304px;}
 .\31 173{background: var(--tileset01) -1280px -2304px;}
 .\31 174{background: var(--tileset01) -1344px -2304px;}
+.\31 175{background: var(--tileset01) -1408px -2304px;}
+.\31 176{background: var(--tileset01) -1472px -2304px;}
+.\31 177{background: var(--tileset01) -1536px -2304px;}
+.\31 178{background: var(--tileset01) -1600px -2304px;}
+.\31 179{background: var(--tileset01) -1664px -2304px;}
+.\31 180{background: var(--tileset01) -1728px -2304px;}
+.\31 181{background: var(--tileset01) -1792px -2304px;}
+.\31 182{background: var(--tileset01) -1856px -2304px;}
+.\31 183{background: var(--tileset01) -1920px -2304px;}
+.\31 184{background: var(--tileset01) -1984px -2304px;}
+.\31 185{background: var(--tileset01) 0px -2368px;}
+.\31 186{background: var(--tileset01) -64px -2368px;}
+.\31 187{background: var(--tileset01) -128px -2368px;}
+.\31 188{background: var(--tileset01) -192px -2368px;}
+.\31 189{background: var(--tileset01) -256px -2368px;}
+.\31 190{background: var(--tileset01) -320px -2368px;}
+.\31 191{background: var(--tileset01) -384px -2368px;}
+.\31 192{background: var(--tileset01) -448px -2368px;}
+.\31 193{background: var(--tileset01) -512px -2368px;}
+.\31 194{background: var(--tileset01) -576px -2368px;}
+.\31 195{background: var(--tileset01) -640px -2368px;}
